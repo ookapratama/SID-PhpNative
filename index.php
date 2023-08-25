@@ -17,7 +17,7 @@ if (session_status() === PHP_SESSION_ACTIVE)
 
 
 <!-- Start Intro -->
-<section class="parallax-bg" style="background-image:url(img/samangki/bg.jpg)" data-stellar-background-ratio="0.5">
+<section id="data" class="parallax-bg" style="background-image:url(img/samangki/bg.jpg)" data-stellar-background-ratio="0.5">
     <!-- Section Title -->
     <div class="js-height-full container">
         <div class="intro-content white-color text-center vertical-section">

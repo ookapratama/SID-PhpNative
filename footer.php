@@ -142,6 +142,23 @@
         }); /*ready*/
     </script>
 
+    <!-- Search di index -->
+    <script>
+
+        function showData()
+        {
+            const ajax = new XMLHttpRequest();   
+            ajax.onload = function()
+            {
+                document.getElementById('data').innerHTML = this.responseText;               
+            }
+            ajax.open('GET', 'wisata.php');
+            ajax.send();
+        }
+
+
+    </script>
+
 </body>
 
 </html>

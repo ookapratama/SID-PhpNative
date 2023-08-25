@@ -4,7 +4,7 @@
     $id = $_GET['id'];
     $no_file = $_GET['no_file'];
     // var_dump($_GET);
-    $query = hapus($id, $no_file);
+    $query = hapus($id);
 
     if($query != null) {
         echo "<script>

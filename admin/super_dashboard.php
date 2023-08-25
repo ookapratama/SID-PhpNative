@@ -49,109 +49,11 @@ $query_user = mysqli_query($conn, "SELECT * FROM tb_login");
         </div><!-- ./col -->
 
 
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner">
-
-              <?php $count_wisata = mysqli_num_rows($query_wisata); ?>
-
-              <h3><?= $count_wisata ?></h3>
-              <p>Wisata Desa</p>
-            </div>
-            <div class="icon">
-              <i class="glyphicon glyphicon-camera"></i>
-            </div>
-            <a href="wisata.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div><!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-
-              <?php $count_produk = mysqli_num_rows($query_produk); ?>
-
-              <h3><?= $count_produk ?></h3>
-              <p>Produk Desa</p>
-            </div>
-
-            <div class="icon">
-              <i class=" glyphicon glyphicon-cutlery"></i>
-            </div>
-            <a href="produk.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div><!-- ./col -->
-
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-
-              <?php $count_informasi = mysqli_num_rows($query_info); ?>
-
-              <h3><?= $count_informasi != null ? $count_informasi : 0 ?></h3>
-              <p>Informasi</p>
-            </div>
-            <div class="icon">
-              <i class=" glyphicon glyphicon-envelope"></i>
-            </div>
-            <a href="informasi.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div><!-- ./col -->
+        
 
       <?php } else {
       ?>
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner">
-
-              <?php $count_wisata = mysqli_num_rows($query_wisata); ?>
-
-              <h3><?= $count_wisata ?></h3>
-              <p>Wisata Desa</p>
-            </div>
-            <div class="icon">
-              <i class="glyphicon glyphicon-camera"></i>
-            </div>
-            <a href="wisata.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div><!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-
-              <?php $count_produk = mysqli_num_rows($query_produk); ?>
-
-              <h3><?= $count_produk ?></h3>
-              <p>Produk Desa</p>
-            </div>
-
-            <div class="icon">
-              <i class=" glyphicon glyphicon-cutlery"></i>
-            </div>
-            <a href="produk.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div><!-- ./col -->
-
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-
-              <?php $count_informasi = mysqli_num_rows($query_info); ?>
-
-              <h3><?= $count_informasi != null ? $count_informasi : 0 ?></h3>
-              <p>Informasi</p>
-            </div>
-            <div class="icon">
-              <i class=" glyphicon glyphicon-envelope"></i>
-            </div>
-            <a href="informasi.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div><!-- ./col -->
+        
       <?php } ?>
 
 

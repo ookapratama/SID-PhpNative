@@ -3,10 +3,10 @@
 
   if (isset($_POST['submit'])) {
     
-    $no_file = $_GET['no_file'];
+    // $no_file = $_GET['no_file'];
     // var_dump($no_file);
 
-    if (insert($_POST, $no_file) > 0) {
+    if (insert($_POST) > 0) {
       echo "<script>
       alert('Sukses Registrasi');
       </script>";
@@ -66,7 +66,7 @@
         <b>Admin</b>| Desa Samangki
       </div><!-- /.login-logo -->
       <div class="login-box-body rounded">
-        <form action="?no_file=1" method="post" enctype="multipart/form-data">
+        <form action="" method="post" enctype="multipart/form-data">
             
           <div class="form-group has-feedback mt-4">
             <input type="text" class="form-control fs-4 " name="nama" placeholder="Nama Lengkap" required/>

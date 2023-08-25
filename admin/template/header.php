@@ -129,11 +129,7 @@ session_start();
           <li class="treeview">
             <?php if ($_SESSION['level'] == 1) { ?>
             <li><a href="user.php"><i class="fa  fa-user"></i> User Desa</a></li>
-            <li><a href="profile.php"><i class="fa fa-group"></i> Profile Desa</a></li>
           <?php } ?>
-            <li><a href="wisata.php"><i class="fa fa-camera"></i> Wisata Desa</a></li>
-            <li><a href="produk.php"><i class="fa fa-cutlery"></i> Produk Desa</a></li>
-            <li><a href="informasi.php"><i class="fa fa-file-text-o"></i> Informasi Desa</a></li>
 
 
         </li>

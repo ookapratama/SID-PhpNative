@@ -22,8 +22,8 @@
     <link rel="apple-touch-icon" sizes="57x57" href="img/samangki/maros_02.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/samangki/maros_03.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/samangki/maros_04.png">
-  
-   
+
+
 
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -93,15 +93,24 @@
                                     <li><a href="tentang_desa.php">Tentang Desa</a></li>
                                     <li><a href="informasi.php">Informasi</a></li>
                                     <li><a href="admin/login.php">Login</a></li>
+                                    <li style="margin-top: 15px;">
+                                        <div class="form-inline">
+                                            <input type="text" class="form-control" id="inputPassword2" placeholder="Search Something...">
+                                            <button type="submit" class="btn btn-default" onclick="showData()">Search</button>
+                                        </div>
+                                    </li>
+
 
                                 </ul>
 
                             </div>
-                        </div> <!-- /.col -->
 
-                    </div> <!-- /.row -->
-                </div>
-                <!--/.container -->
+                        </div>
+                    </div> <!-- /.col -->
+
+                </div> <!-- /.row -->
+            </div>
+            <!--/.container -->
             </div> <!-- /.navigation-overlay -->
         </nav> <!-- /.navbar -->
 

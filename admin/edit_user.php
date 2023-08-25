@@ -7,9 +7,8 @@
 
     if (isset($_POST['submit'])) {
         
-        $no_file = $_POST['no_file'];
         // var_dump(update($_POST, $no_file));
-        if (update($_POST, $no_file) > 0) {
+        if (update($_POST) > 0) {
             echo "<script>
             window.location.replace('user.php');
           </script>";
